@@ -1,0 +1,73 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="600px"
+        android:src="@drawable/banana"
+        android:visibility="visible"
+        android:maxWidth="100pt"
+        android:maxHeight="100pt"
+        android:padding="30dp"
+        android:background="@color/mycolor"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="600px"
+        android:src="@drawable/banana"
+        android:visibility="visible"
+        android:maxWidth="100pt"
+        android:maxHeight="100pt"
+        android:padding="30dp"
+        android:background="@color/mycolor"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:cropToPadding="true"/>
+
+<!--adjustViewBounds가 있어야 너비높이가 적용됨-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banana"
+        android:visibility="visible"
+        android:maxWidth="100pt"
+        android:maxHeight="100pt"
+        android:adjustViewBounds="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banana"
+        android:visibility="visible"
+        android:maxWidth="100pt"
+        android:maxHeight="20pt"
+        android:adjustViewBounds="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banana"
+        android:visibility="visible"
+        android:maxWidth="20pt"
+        android:maxHeight="100pt"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banana"
+        android:visibility="visible"
+        android:maxWidth="2pt"
+        android:maxHeight="2pt"
+        android:adjustViewBounds="false"/>
+
+
+
+
+
+
+</LinearLayout>

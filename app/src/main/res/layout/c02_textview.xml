@@ -1,0 +1,75 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+<!--   @는 R.자바에 물어보라는 말 string.xml 의 hello_world라는 변수 값을 가져와서 넣어달라는 말 -->
+<!--    dp는 화면의크기에 관계없이 해상도에 따라서 변동. 설정에서 바꿔도 크기가 안바뀜-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="30dp"/>
+
+    <!--    sp는 화면의 크기가 커지면 그거에 따라 크기가 달라짐 - 가장 추천 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="30px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="monospace!!!"
+        android:typeface="monospace"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="serif!!"
+        android:typeface="serif"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sans!!"
+        android:typeface="sans"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/normal"
+        android:typeface="normal"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aaaaaaaaaaaaaaaaaaaaaabcdefg"
+        android:typeface="normal"
+        android:textSize="30sp"
+        android:singleLine="true"
+        android:width="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aaaaaaaaaaaaaaaaaaaaaabcdefg"
+        android:typeface="normal"
+        android:textSize="30sp"
+        android:singleLine="false"
+        android:width="100dp"/>
+
+
+
+
+</LinearLayout>

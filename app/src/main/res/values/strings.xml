@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">knou-android</string>
+    <string name="hello_world">Hello world!!!</string>
+    <string name="normal">normal!!</string>
 </resources>
