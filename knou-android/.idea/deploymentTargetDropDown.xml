@@ -18,6 +18,12 @@
           <timeTargetWasSelectedWithDropDown value="2024-03-29T20:57:32.527545200Z" />
         </State>
       </entry>
+      <entry key="MainActivity0">
+        <State />
+      </entry>
+      <entry key="MainActivity1">
+        <State />
+      </entry>
       <entry key="app">
         <State>
           <targetSelectedWithDropDown>
@@ -33,6 +39,12 @@
           </targetSelectedWithDropDown>
           <timeTargetWasSelectedWithDropDown value="2024-03-29T20:36:03.112202600Z" />
         </State>
+      </entry>
+      <entry key="c09_event1">
+        <State />
+      </entry>
+      <entry key="c10_timer">
+        <State />
       </entry>
     </value>
   </component>
