@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TARGET"
+        android:layout_centerInParent="true"
+        android:id="@+id/target1"
+        android:textSize="35sp"
+        android:background="#00D8FF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEFAULT"
+        android:id="@+id/target2"
+        android:textSize="20sp"
+        android:background="#1DDB16"/>
+
+<!--    타겟1의 왼쪽변과 맞추라는 얘기-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/target1"
+        android:text="LEFT"
+        android:id="@+id/target3"
+        android:textSize="20sp"
+        android:background="#1DDB16"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/target1"
+        android:text="Right"
+        android:id="@+id/target4"
+        android:textSize="20sp"
+        android:background="#1DDB16"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/target1"
+        android:text="ABOVE"
+        android:id="@+id/target5"
+        android:textSize="20sp"
+        android:background="#1DDB16"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/target1"
+        android:text="BELOW"
+        android:id="@+id/target6"
+        android:textSize="20sp"
+        android:background="#1DDB16"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/target1"
+        android:text="LEFT2"
+        android:id="@+id/target7"
+        android:textSize="20sp"
+        android:background="#3FFFC5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/target1"
+        android:text="Right2"
+        android:id="@+id/target8"
+        android:textSize="20sp"
+        android:background="#3FFFC5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/target1"
+        android:text="Top"
+        android:id="@+id/target9"
+        android:textSize="20sp"
+        android:background="#3FFFC5"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/target1"
+        android:text="End"
+        android:id="@+id/target10"
+        android:textSize="20sp"
+        android:background="#3FFFC5"/>
+
+
+
+</RelativeLayout>
+
+
