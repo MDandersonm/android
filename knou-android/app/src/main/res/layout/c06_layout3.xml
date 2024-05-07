@@ -1,0 +1,29 @@
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main61"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/banana"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/earth"
+            android:adjustViewBounds="true"
+            />
+        <Button
+            android:id="@+id/btn061"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click, Button"
+        />
+    </FrameLayout>
