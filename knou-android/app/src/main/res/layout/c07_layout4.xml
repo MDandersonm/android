@@ -1,0 +1,45 @@
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="1,2"
+        >
+<!--    android:stretchColumns="1"  1번 인덱스의 칼럼을 남는 여백만큼 늘려달라는 말-->
+<!--android:shrinkColumns="1,2"  1번과 2번 인덱스를 쭐여서 화면안에 보이게 하라는 말.-->
+        <TableRow>
+            <TextView
+                android:text="SUNDAY"
+                android:padding="5dip"
+                android:textColor="#FF0000"
+                android:textSize="100px" />
+            <TextView
+                android:text="MONDAY"
+                android:padding="5dip"
+                android:textColor="#FF0000"
+                android:textSize="100px" />
+            <TextView
+                android:text="TUESDAY"
+                android:padding="5dip"
+                android:textColor="#FF0000"
+                android:textSize="100px" />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="55"
+                android:padding="5dip"
+                android:textSize="30px" />
+            <TextView
+                android:text="6"
+                android:padding="5dip"
+                android:textSize="30px" />
+            <TextView
+                android:text="7"
+                android:padding="5dip"
+                android:textSize="30px" />
+
+        </TableRow>
+
+
+    </TableLayout>
