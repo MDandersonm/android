@@ -1,0 +1,34 @@
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/shortmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="short Message"/>
+        <Button
+            android:id="@+id/longmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Long Message"/>
+
+        <Button
+            android:id="@+id/beep1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SoundPool"/>
+
+        <Button
+            android:id="@+id/beep2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AudioManager"/>
+
+
+
+
+    </LinearLayout>
