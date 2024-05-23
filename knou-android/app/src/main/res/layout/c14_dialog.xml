@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main140"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Dialog Button"/>
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick14"
+        android:text="Dialog call"/>
+<!--달력선택-->
+    <Button
+        android:id="@+id/button141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick141"
+        android:text="날짜 설정"/>
+    <TextView
+        android:id="@+id/text141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<!-- 타임피커-->
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="clock"/>
+    <Button
+        android:id="@+id/button142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택"/>
+    <TextView
+        android:id="@+id/text142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[time]"/>
+
+</LinearLayout>

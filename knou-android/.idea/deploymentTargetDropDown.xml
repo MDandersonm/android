@@ -2,28 +2,6 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="MainActivity">
-        <State>
-          <targetSelectedWithDropDown>
-            <Target>
-              <type value="QUICK_BOOT_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\kimyj\.android\avd\Nexus_4_API_22.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-03-29T20:57:32.527545200Z" />
-        </State>
-      </entry>
-      <entry key="MainActivity0">
-        <State />
-      </entry>
-      <entry key="MainActivity1">
-        <State />
-      </entry>
       <entry key="app">
         <State>
           <targetSelectedWithDropDown>
@@ -40,10 +18,19 @@
           <timeTargetWasSelectedWithDropDown value="2024-03-29T20:36:03.112202600Z" />
         </State>
       </entry>
-      <entry key="c09_event1">
+      <entry key="c121_mainActivity">
         <State />
       </entry>
-      <entry key="c10_timer">
+      <entry key="c12_mainActivity">
+        <State />
+      </entry>
+      <entry key="c13_1_spinner">
+        <State />
+      </entry>
+      <entry key="c13_mainActivity">
+        <State />
+      </entry>
+      <entry key="c14_dialog">
         <State />
       </entry>
     </value>
