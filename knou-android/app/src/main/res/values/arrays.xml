@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 문자열 배열 -->
+    <string-array name="programming_languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>Swift</item>
+        <item>C++</item>
+    </string-array>
+
+    <!-- 정수 배열 -->
+    <integer-array name="prime_numbers">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>11</item>
+    </integer-array>
+
+
+</resources>
