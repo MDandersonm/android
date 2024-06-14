@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main15"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+<!--    gravity는 textView의 내부 텍스트를 중앙에 배치시킨다-->
+<!--    layout_gravity는 textView자체를 중앙에 배치시킴-->
+
+
+
+</LinearLayout>
